@@ -7,6 +7,17 @@
     android:background="#088AB7"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/tje_log_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
     <TextView
         android:textColor="#ffffff"
         android:layout_width="wrap_content"
