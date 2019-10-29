@@ -29,15 +29,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="loginid2018"/>
-    <EditText
-        android:textSize="25sp"
-        android:hint="비밀번호"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content">
+        <EditText
+            android:textSize="25sp"
+            android:hint="비밀번호"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_gravity="right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"/>
+    </FrameLayout>
     <LinearLayout
+        android:gravity="center_vertical"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_launcher"/>
         <TextView
             android:text="비밀번호찾기"
             android:layout_width="wrap_content"
